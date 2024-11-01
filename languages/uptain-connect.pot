@@ -1,0 +1,35 @@
+# Copyright (C) 2019 uptain GmbH
+# This file is distributed under the same license as the uptain Connect plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: uptain Connect 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uptain-connect\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-01-07T09:57:29+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: uptain-connect\n"
+
+#. Plugin Name of the plugin
+msgid "uptain Connect"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://uptain.de"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a short description of what the plugin does. It's displayed in the WordPress admin area."
+msgstr ""
+
+#. Author of the plugin
+msgid "uptain GmbH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "www.uptain.de"
+msgstr ""

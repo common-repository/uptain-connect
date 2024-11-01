@@ -1,0 +1,47 @@
+{
+    "name": "webfoersterei/wp-plugin",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Timo Förster",
+            "email": "tfoerster@webfoersterei.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webfoersterei\\Wordpress\\Plugin\\UptainTracking\\": "src/",
+            "Webfoersterei\\Wordpress\\Plugin\\UptainTracking\\Dependencies\\": "lib/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "\"vendor/bin/mozart\" compose",
+            "composer dump-autoload"
+        ],
+        "post-update-cmd": [
+            "\"vendor/bin/mozart\" compose",
+            "composer dump-autoload"
+        ]
+    },
+    "extra": {
+        "mozart": {
+            "dep_namespace": "Webfoersterei\\Wordpress\\Plugin\\UptainTracking\\Dependencies\\",
+            "dep_directory": "/lib/",
+            "classmap_directory": "/classes/dependencies/",
+            "classmap_prefix": "WF_"
+        }
+    },
+    "require-dev": {
+        "coenjacobs/mozart": "^0.7.1",
+        "php": "^7.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.6",
+        "ext-json": "*"
+    }
+}
